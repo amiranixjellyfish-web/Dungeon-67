@@ -1,7 +1,26 @@
 [gd_scene format=3 uid="uid://bw4816vgnqibg"]
 
 [ext_resource type="PackedScene" uid="uid://fe0oqi8wyf83" path="res://scenes/player/test_player1.tscn" id="1_o4vn4"]
+[ext_resource type="PackedScene" uid="uid://lwkxrac5vcc3" path="res://scenes/world/test_wall1.tscn" id="2_i6mac"]
+[ext_resource type="PackedScene" uid="uid://boai2d6yg7opr" path="res://scenes/world/test_wall2.tscn" id="3_hoctv"]
+[ext_resource type="Texture2D" uid="uid://oepik4sdgoy3" path="res://assets/sprites/rgf.png" id="4_lgbk1"]
 
 [node name="Test1" type="Node2D" unique_id=1400951431]
 
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=28437547]
+position = Vector2(-8, -2)
+texture = ExtResource("4_lgbk1")
+
 [node name="test_player1" parent="." unique_id=830339534 instance=ExtResource("1_o4vn4")]
+
+[node name="StaticBody2D" parent="." unique_id=171883844 instance=ExtResource("2_i6mac")]
+position = Vector2(-671, -1)
+
+[node name="StaticBody2D2" parent="." unique_id=496223983 instance=ExtResource("2_i6mac")]
+position = Vector2(603, -2)
+
+[node name="StaticBody2D3" parent="." unique_id=687845816 instance=ExtResource("3_hoctv")]
+position = Vector2(-9, -390)
+
+[node name="StaticBody2D4" parent="." unique_id=878308792 instance=ExtResource("3_hoctv")]
+position = Vector2(-10, 316)
