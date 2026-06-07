@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://lwkxrac5vcc3" path="res://scenes/world/test_wall1.tscn" id="2_i6mac"]
 [ext_resource type="PackedScene" uid="uid://boai2d6yg7opr" path="res://scenes/world/test_wall2.tscn" id="3_hoctv"]
 [ext_resource type="Texture2D" uid="uid://oepik4sdgoy3" path="res://assets/sprites/rgf.png" id="4_lgbk1"]
+[ext_resource type="PackedScene" uid="uid://cxiq4mroid886" path="res://scenes/resources/test_ore1.tscn" id="5_hoctv"]
 
 [node name="Test1" type="Node2D" unique_id=1400951431]
 
@@ -24,3 +25,8 @@ position = Vector2(-9, -390)
 
 [node name="StaticBody2D4" parent="." unique_id=878308792 instance=ExtResource("3_hoctv")]
 position = Vector2(-10, 316)
+
+[node name="StaticBody2D5" parent="." unique_id=1913856567 instance=ExtResource("5_hoctv")]
+position = Vector2(-378, 108)
+resource_type = null
+health = null

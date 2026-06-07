@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://cxiq4mroid886"]
+
+[ext_resource type="Script" uid="uid://os8nqt1mo648" path="res://scripts/test_ore_1_script.gd" id="1_g73al"]
+
+[node name="StaticBody2D5" type="StaticBody2D" unique_id=1913856567]
+script = ExtResource("1_g73al")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=472851512]
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(0, 0.5921569, 0, 1)
+
+[node name="Area2D" type="Area2D" parent="." unique_id=361274281]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1380390724]
