@@ -1,17 +1,17 @@
 [gd_scene format=3 uid="uid://c433l2a6pjs0d"]
 
-[ext_resource type="Script" uid="uid://8qccpujcfxgx" path="res://character_body_2d.gd" id="1_ij6vw"]
-[ext_resource type="Texture2D" uid="uid://bvjb2h78sw55y" path="res://icon.svg" id="2_ghijl"]
+[ext_resource type="Script" uid="uid://8qccpujcfxgx" path="res://scenes/player/character_body_2d.gd" id="1_s25n1"]
+[ext_resource type="Texture2D" uid="uid://bvjb2h78sw55y" path="res://assets/sprites/icon.svg" id="2_lxlh8"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ij6vw"]
 radius = 68.359344
 
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=959434057]
-script = ExtResource("1_ij6vw")
+script = ExtResource("1_s25n1")
 
 [node name="Icon" type="Sprite2D" parent="." unique_id=342490404]
 position = Vector2(6, -1)
-texture = ExtResource("2_ghijl")
+texture = ExtResource("2_lxlh8")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=2139453357]
 position = Vector2(0, 3)
